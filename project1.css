@@ -1,0 +1,359 @@
+
+        .navbar {
+            display: flex;
+
+        }
+
+        .logo {
+            background-color: #3A4B53;
+            width: 10%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .logo i {
+            margin-left: 30px;
+        }
+
+        .logo p {
+            color: #ffffff;
+            margin: 30px;
+            font-size: 24px;
+        }
+
+        .navbaritem {
+            background-color: #4D636F;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu i {
+            margin-left: 30px;
+        }
+
+        .profile {
+            margin-right: 20px;
+        }
+
+        .left {
+            width: 25%;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .profilediv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo {
+            background-color: #4D636F;
+            border: #3A4B53 solid 2px;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+        }
+
+        .account {
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+            border-radius: 5px;
+            height: auto;
+
+            padding: 25px;
+        }
+
+        .account hr {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .accountdetail {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+
+        .accountdetail div {
+            margin-bottom: 20px;
+        }
+
+        .leftmenu {
+            background-color: #4D636F;
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+
+        .leftmenu i {
+            margin: 15px;
+        }
+
+        .leftmenu span {
+            margin-left: 15px;
+        }
+
+        .leftmenu div:hover {
+            background-color: #ffffff;
+            color: #4D636F;
+        }
+
+        .interest {
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+            padding: 25px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .interesttitle {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .interestdetail span {
+            font-size: 12px;
+            border: #ffffff solid 1px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+
+        .type1 {
+            background-color: #20292e;
+            color: #ffffff;
+        }
+
+        .type2 {
+            background-color: #3A4B53;
+            color: #ffffff;
+        }
+
+        .type3 {
+            background-color: #4D636F;
+            color: #ffffff;
+        }
+
+        .type4 {
+            background-color: #92afbf;
+            color: black;
+        }
+
+        .container {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .context {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .commit {
+            width: 100%;
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+        }
+
+        .commit input {
+            width: 100%;
+            height: 30px;
+        }
+
+        .commitbox {
+            padding: 30px;
+        }
+
+        .commitbtn {
+            margin-left: 30px;
+            margin-bottom: 10px;
+            background-color: #4D636F;
+            width: 80px;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .commitbtn:hover{
+            cursor: pointer;
+            background-color:#ffffff;
+            color: #4D636F;
+        }
+
+        .commitbtn span {
+            margin-left: 15px;
+        }
+
+        .post {
+            width: 100%;
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+            margin-top: 10px;
+        }
+
+        .posttitle {
+            margin: 10px 30px;
+            display: flex;
+        }
+
+        .postphoto {
+            width: 50px;
+            height: 50px;
+            background-color: #4D636F;
+            border: #4D636F solid 1px;
+            border-radius: 50%;
+        }
+
+        .postuser {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        .imagemain {
+            display: flex;
+            object-fit: contain;
+            margin: 10px 30px;
+        }
+
+        .image {
+            object-fit: contain;
+        }
+
+        .image img {
+            width: 100%;
+        }
+
+        .post hr {
+            margin: 30px;
+        }
+
+        .postdescription {
+            margin: 10px 30px 20px;
+        }
+
+        .buttons {
+            display: flex;
+            margin-left: 30px;
+            font-size: 14px;
+        }
+
+        .postbtn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background-color: #4D636F;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .postbtn:hover {
+            cursor: pointer;
+            background-color: #ffffff;
+            color:#4D636F;
+        }
+
+        
+        .postbtn span {
+            margin-left: 15px;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .event {
+            border: #333 solid 1px;
+            box-shadow: 3px 3px 3px #4D636F;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .event img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .event span {
+            margin-bottom: 20px;
+        }
+
+        .infobtn {
+            background-color: #92afbf;
+            padding: 10px 80px;
+        }
+        .infobtn:hover{
+            cursor: pointer;
+            background-color: #4D636F;
+            
+        }
+
+        .friend {
+            width: 100px;
+            height: 100px;
+            background-color: #4D636F;
+            margin-bottom: 10px;
+        }
+
+        .friendbtn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .accept {
+            background-color: #94CF96;
+            padding: 10px 30px;
+        }
+        .accept:hover{
+            background-color: #7a7878;
+            color: #20292e;
+            cursor: pointer;
+        }
+
+        .decline {
+            background-color: #F88E86;
+
+            padding: 8px 30px;
+        }
+        .decline:hover{
+            background-color: #7a7878;
+            color: #20292e;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #4D636F;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            padding-top: 40px;
+        }
